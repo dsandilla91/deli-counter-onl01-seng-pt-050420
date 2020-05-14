@@ -1,5 +1,5 @@
 def line(deli)
-  if deli.length == log10puts "The line is currently empty."
+  if deli.length == 0 "The line is currently empty."
 else
   current_line = "The line is currently:"
   deli.map.with_index(1) do |customer, index|
